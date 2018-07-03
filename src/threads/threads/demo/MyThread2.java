@@ -1,4 +1,4 @@
-package my.threads.demo;
+package threads.threads.demo;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -21,8 +21,8 @@ public class MyThread2 implements Runnable
             try
             {
                 this.semaphore.acquire();
-                Thread.sleep(1000l);
-                System.out.println("Before Acquiring "+ value.getAndIncrement());
+                Thread.sleep(100l);
+                System.out.println("MyThread2 - After Acquiring "+ value.getAndIncrement());
             }
             catch (InterruptedException e)
             {

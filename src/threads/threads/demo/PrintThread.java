@@ -1,4 +1,4 @@
-package my.threads.demo;
+package threads.threads.demo;
 
 public class PrintThread implements Runnable
 {

@@ -1,4 +1,4 @@
-package my.thread.pool;
+package threads.thread.pool;
 
 import java.util.concurrent.PriorityBlockingQueue;
 

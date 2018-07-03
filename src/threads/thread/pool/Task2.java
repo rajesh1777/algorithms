@@ -1,4 +1,4 @@
-package my.thread.pool;
+package threads.thread.pool;
 
 public class Task2 implements Task
 {
